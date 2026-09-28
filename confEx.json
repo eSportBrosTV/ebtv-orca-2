@@ -1,0 +1,30 @@
+{
+  "id": "888",
+  "orga": {
+    "id": "0",
+    "name": "ebTV"
+  },
+  "serv": "1296457291029286976",
+  "logChannel": "1529187507030462574",
+  "requireFirstDeploy": false,
+  "commands": [
+    {
+      "id": "0",
+      "metadata": {
+        "name": "test",
+        "description": "Une Commande de test",
+        "active": true,
+        "params": {}
+      }
+    },
+    {
+      "id": "2",
+      "metadata": {
+        "name": "reload",
+        "description": "Redemande la config a TarTar",
+        "active": true,
+        "params": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "orca-2",
+  "version": "0.0.1-a4",
+  "description": "Un bot par ebTV destiné a la gestion de comp splatoon",
+  "keywords": [
+    "bot",
+    "discord",
+    "orca",
+    "ebtv",
+    "esport",
+    "splatoon"
+  ],
+  "license": "ISC",
+  "author": "Tarsmio",
+  "type": "commonjs",
+  "main": "orca.js",
+  "config": {
+    "image": "tarsmio/ebtv-orca2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js",
+    "docker:build": "node scripts/docker.js build",
+    "docker:push": "node scripts/docker.js push"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "socket.io-client": "^4.8.3"
+  }
+}
